@@ -40,7 +40,7 @@ scene.add(directionalLight);
 // glTF Loader
 const loader = new GLTFLoader();
 loader.load(
-  "./old_wooden_house.glb",
+  "../public/old_wooden_house.glb",
   function (gltf) {
     scene.add(gltf.scene);
   },
